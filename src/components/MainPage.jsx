@@ -11,7 +11,7 @@ import AppCTA from "@/mainpage_sections/AppCTA";
 import AppNavbar from "@/mainpage_sections/AppNavbar";
 import AppHeader from "@/mainpage_sections/AppHeader";
 import AppFooter from "@/mainpage_sections/AppFooter";
-import AppBlog from "@/mainpage_sections/AppBlog";
+// import AppBlog from "@/mainpage_sections/AppBlog";
 import "../assets/css/tailwind-loading.css"
 import "../assets/css/animate.css"
 import "../assets/css/swiper-bundle.min.css"
@@ -34,20 +34,20 @@ const MainPage = () => {
     };
 
     // Load WOW.js script first
-    loadScript("/assets/js/wow.min.js", () => {
+    loadScript("/src/assets/js/wow.min.js", () => {
       // Once WOW.js script is loaded, initialize WOW
       new window.WOW().init();
     })
       .then(() => {
         // After WOW.js is loaded, load and execute main.js
-        return loadScript("/assets/js/main.js");
+        return loadScript("/src/assets/js/main.js");
       })
       .catch((error) => {
         console.error("Error loading script:", error);
       });
 
     // Load Swiper script and initialize Swiper once the script is loaded
-    loadScript("/assets/js/swiper-bundle.min.js", () => {
+    loadScript("/src/assets/js/swiper-bundle.min.js", () => {
       new window.Swiper(".testimonial-carousel", {
         slidesPerView: 1,
         spaceBetween: 30,

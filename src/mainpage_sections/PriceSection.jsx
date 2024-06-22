@@ -115,7 +115,7 @@ const PriceSection = () => {
                   Unlimited Access
                   </p>
                   <p className="text-base text-body-color dark:text-dark-6">
-                  Access to AI Model Training Pipeline
+                  Access to AI Model Training
                   </p>
                 </div>
               </div>
@@ -163,7 +163,7 @@ const PriceSection = () => {
                   Priority Support
                   </p>
                   <p className="text-base text-body-color dark:text-dark-6">
-                  AI Model Training Pipeline Access
+                  AI Model Training 
                   </p>
                 </div>
               </div>
