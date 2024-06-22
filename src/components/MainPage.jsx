@@ -34,20 +34,20 @@ const MainPage = () => {
     };
 
     // Load WOW.js script first
-    loadScript("/src/assets/js/wow.min.js", () => {
+    loadScript("/assets/js/wow.min.js", () => {
       // Once WOW.js script is loaded, initialize WOW
       new window.WOW().init();
     })
       .then(() => {
         // After WOW.js is loaded, load and execute main.js
-        return loadScript("/src/assets/js/main.js");
+        return loadScript("/assets/js/main.js");
       })
       .catch((error) => {
         console.error("Error loading script:", error);
       });
 
     // Load Swiper script and initialize Swiper once the script is loaded
-    loadScript("/src/assets/js/swiper-bundle.min.js", () => {
+    loadScript("/assets/js/swiper-bundle.min.js", () => {
       new window.Swiper(".testimonial-carousel", {
         slidesPerView: 1,
         spaceBetween: 30,
