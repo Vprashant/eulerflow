@@ -1,0 +1,19 @@
+.directory-selector {
+  /* Add any additional styles you need */
+}
+
+.toggle-button {
+  border: none;
+  background-color: lightblue; /* Initial color */
+  padding: 10px; /* Adjust padding as needed */
+  cursor: pointer;
+  border-radius: 50%; /* Ensures the button is circular */
+}
+
+.toggle-button.open {
+  background-color: white; /* Color after clicking */
+}
+
+.toggle-button .icon {
+  color: blue; /* Icon color */
+}
