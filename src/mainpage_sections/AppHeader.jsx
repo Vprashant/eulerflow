@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import heroimage from "../assets/images/hero/hero-image.png"
 
 export default function AppHeader() {
     
@@ -34,7 +35,7 @@ export default function AppHeader() {
             >
               <div className="mt-16">
                 <img
-                  src="./src/assets/images/hero/hero-image.png"
+                  src={heroimage}
                   alt="hero"
                   className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                 />

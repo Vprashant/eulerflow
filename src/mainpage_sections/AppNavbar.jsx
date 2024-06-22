@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LoginAccount from "@/user/LoginAccount";
+import logo from "../assets/images/logo/logo-white.svg"
 // import "../assets/css/custom-navbar.css"
 
 export default function AppNavbar({ scrolled }) {
@@ -12,7 +13,7 @@ export default function AppNavbar({ scrolled }) {
             <div className="w-100 max-w-full px-4">
               <a href="#" className="navbar-logo block w-full py-5">
                 <img
-                  src="./src/assets/images/logo/logo-white.svg"
+                  src={logo}
                   alt="logo"
                   className="header-logo w-full"
                 />
@@ -74,12 +75,18 @@ export default function AppNavbar({ scrolled }) {
                       </a>
                     </li>
                     <li className="group relative">
-                      <Link
+                    <a
+                        href="javascript:void(0)"
+                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      >
+                        Blog
+                      </a>
+                      {/* <Link
                         to="/blogs"
                         className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                       >
                         Blog
-                      </Link>
+                      </Link> */}
                     </li>
                   </ul>
                 </nav>

@@ -1,4 +1,7 @@
 import React from 'react'
+import blog1 from "../assets/images/blog/blog-01.jpg"
+import blog2 from "../assets/images/blog/blog-02.jpg"
+import blog3 from "../assets/images/blog/blog-03.jpg"
 
 export default function AppBlog() {
   return (
@@ -29,7 +32,7 @@ export default function AppBlog() {
               <div className="mb-8 overflow-hidden rounded-[5px]">
                 <a href="blog-details.html" className="block">
                   <img
-                    src="./src/assets/images/blog/blog-01.jpg"
+                    src={blog1}
                     alt="image"
                     className="w-full transition group-hover:rotate-6 group-hover:scale-125"
                   />
@@ -63,7 +66,7 @@ export default function AppBlog() {
               <div className="mb-8 overflow-hidden rounded-[5px]">
                 <a href="blog-details.html" className="block">
                   <img
-                    src="./src/assets/images/blog/blog-02.jpg"
+                    src={blog2}
                     alt="image"
                     className="w-full transition group-hover:rotate-6 group-hover:scale-125"
                   />
@@ -97,7 +100,7 @@ export default function AppBlog() {
               <div className="mb-8 overflow-hidden rounded-[5px]">
                 <a href="blog-details.html" className="block">
                   <img
-                    src="./src/assets/images/blog/blog-03.jpg"
+                    src={blog3}
                     alt="image"
                     className="w-full transition group-hover:rotate-6 group-hover:scale-125"
                   />

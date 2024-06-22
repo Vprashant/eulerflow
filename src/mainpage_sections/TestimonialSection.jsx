@@ -1,4 +1,9 @@
 import React from "react";
+import star from "../assets/images/testimonials/icon-star.svg"
+import user1 from "../assets/images/testimonials/author-1.jpg"
+import user2 from "../assets/images/testimonials/author-02.jpg"
+import user3 from "../assets/images/testimonials/author-03.jpg"
+import user4 from "../assets/images/testimonials/author-01.jpg"
 
 const TestimonialSection = () => {
   return (
@@ -36,23 +41,23 @@ const TestimonialSection = () => {
                 >
                   <div class="mb-[18px] flex items-center gap-[2px]">
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                   </div>
@@ -65,7 +70,7 @@ const TestimonialSection = () => {
                   <a href="#" class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
                       <img
-                        src="./src/assets/images/testimonials/author-1.jpg"
+                        src={user1}
                         alt="author"
                         class="h-[50px] w-[50px] overflow-hidden rounded-full"
                       />
@@ -89,23 +94,23 @@ const TestimonialSection = () => {
                 >
                   <div class="mb-[18px] flex items-center gap-[2px]">
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                   </div>
@@ -117,7 +122,7 @@ const TestimonialSection = () => {
                   <a href="#" class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
                       <img
-                        src="./src/assets/images/testimonials/author-02.jpg"
+                        src={user2}
                         alt="author"
                         class="h-[50px] w-[50px] overflow-hidden rounded-full"
                       />
@@ -143,23 +148,23 @@ const TestimonialSection = () => {
                 >
                   <div class="mb-[18px] flex items-center gap-[2px]">
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                   </div>
@@ -171,7 +176,7 @@ const TestimonialSection = () => {
                   <a href="#" class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
                       <img
-                        src="./src/assets/images/testimonials/author-03.jpg"
+                        src={user3}
                         alt="author"
                         class="h-[50px] w-[50px] overflow-hidden rounded-full"
                       />
@@ -197,23 +202,23 @@ const TestimonialSection = () => {
                 >
                   <div class="mb-[18px] flex items-center gap-[2px]">
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                   </div>
@@ -225,7 +230,7 @@ const TestimonialSection = () => {
                   <a href="#" class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
                       <img
-                        src="./src/assets/images/testimonials/author-01.jpg"
+                        src={user4}
                         alt="author"
                         class="h-[50px] w-[50px] overflow-hidden rounded-full"
                       />
@@ -249,23 +254,23 @@ const TestimonialSection = () => {
                 >
                   <div class="mb-[18px] flex items-center gap-[2px]">
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                   </div>
@@ -277,7 +282,7 @@ const TestimonialSection = () => {
                   <a href="#" class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
                       <img
-                        src="./src/assets/images/testimonials/author-02.jpg"
+                        src={user2}
                         alt="author"
                         class="h-[50px] w-[50px] overflow-hidden rounded-full"
                       />
@@ -303,23 +308,23 @@ const TestimonialSection = () => {
                 >
                   <div class="mb-[18px] flex items-center gap-[2px]">
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                     <img
-                      src="./src/assets/images/testimonials/icon-star.svg"
+                      src={star}
                       alt="star icon"
                     />
                   </div>
@@ -331,7 +336,7 @@ const TestimonialSection = () => {
                   <a href="#" class="flex items-center gap-4">
                     <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
                       <img
-                        src="./src/assets/images/testimonials/author-03.jpg"
+                        src={user3}
                         alt="author"
                         class="h-[50px] w-[50px] overflow-hidden rounded-full"
                       />

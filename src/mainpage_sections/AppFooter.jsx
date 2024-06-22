@@ -1,4 +1,9 @@
 import React from 'react'
+import logoWhite from '../assets/images/logo/logo-white.svg';
+import blogFooter01 from '../assets/images/blog/blog-footer-01.jpg';
+import blogFooter02 from '../assets/images/blog/blog-footer-02.jpg';
+import shape1 from '../assets/images/footer/shape-1.svg';
+import shape3 from '../assets/images/footer/shape-3.svg';
 
 export default function AppFooter() {
   return (
@@ -16,10 +21,10 @@ export default function AppFooter() {
                 className="mb-6 inline-block max-w-[160px]"
               >
                 <img
-                  src="./src/assets/images/logo/logo-white.svg"
-                  alt="logo"
-                  className="max-w-full"
-                />
+                    src={logoWhite}
+                    alt="logo"
+                    className="max-w-full"
+                  />
               </a>
               <p className="mb-8 max-w-[270px] text-white text-gray-7">
               We offer world-class Generative AI based no-code solutions for companies.
@@ -230,10 +235,10 @@ export default function AppFooter() {
                   className="group flex items-center gap-[22px]"
                 >
                   <div className="overflow-hidden rounded">
-                    <img
-                      src="././src/assets/images/blog/blog-footer-01.jpg"
-                      alt="blog"
-                    />
+                  <img
+                        src={blogFooter01}
+                        alt="blog"
+                      />
                   </div>
                   <span
                     className="max-w-[180px] text-white text-gray-7 group-hover:text-white"
@@ -246,10 +251,10 @@ export default function AppFooter() {
                   className="group flex items-center gap-[22px]"
                 >
                   <div className="overflow-hidden rounded">
-                    <img
-                      src="././src/assets/images/blog/blog-footer-02.jpg"
-                      alt="blog"
-                    />
+                  <img
+                        src={blogFooter02}
+                        alt="blog"
+                      />
                   </div>
                   <span
                     className="max-w-[180px] text-white text-gray-7 group-hover:text-white"
@@ -308,11 +313,17 @@ export default function AppFooter() {
 
       <div>
         <span className="absolute left-0 top-0 z-[-1]">
-          <img src="./src/assets/images/footer/shape-1.svg" alt="" />
+        <img
+                        src={shape1}
+                        alt=""
+                      />
         </span>
 
         <span className="absolute bottom-0 right-0 z-[-1]">
-          <img src="./src/assets/images/footer/shape-3.svg" alt="" />
+        <img
+                        src={shape3}
+                        alt=""
+                      />
         </span>
 
         <span className="absolute right-0 top-0 z-[-1]">
