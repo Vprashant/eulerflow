@@ -7,7 +7,7 @@ import logo from "../assets/images/logo/logo-white.svg"
 export default function AppNavbar({ scrolled }) {
   return (
     <div className={`ud-header ${scrolled ? 'bg-white shadow-lg' : 'bg-transparent'}`}>
-      <div className="fixed left-0 top-0 z-40 flex w-full items-center transition-all duration-300 ease-in-out">
+      <div className="fixed left-0 top-0 z-40 flex w-full items-center transition-all duration-300 ease-in-out bg-primary">
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-100 max-w-full px-4">
